@@ -660,6 +660,9 @@ letter-spacing: 0.02em;
     text-align: center;
     width: 360px;
     margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 360px;
 }
 
 .form-label {
