@@ -620,9 +620,7 @@ letter-spacing: 0.02em;
 .modal {
     width: 408px;
     min-height: 584px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: rgba(252, 252, 252, 1);
     position: absolute;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -642,7 +640,7 @@ letter-spacing: 0.02em;
     justify-content: center;
     background-color: rgba(231, 233, 252, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
+    border-radius: 50%;
     width: 24px;
     height: 24px;
     padding: 0;
@@ -658,6 +656,7 @@ letter-spacing: 0.02em;
 .modal-close:hover,
 .modal-close:focus {
     background-color: rgba(64, 75, 191, 1);
+    border: none;
 }
 
 .modal-close:hover .close-btn-icon,
